@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Understading Javascript</title>
+	<title>Learning Cascading Style Sheets(CSS)</title>
 </head>
 <body>
 	<header>
@@ -19,109 +19,122 @@
 	</header>
 	<article>
 		<header>
-			<h2>Understanding Javascript</h2>
+			<h2>Learning Cascading Style Sheet(CSS)</h2>
 			<p>Posted by <strong>Raffy Gatal</strong></p>
 		</header>
-		<h3>What is JavaScript?</h3>
+		<h3>What is Cascading Style Sheet or CSS?</h3>
 		<p>
-			<strong>JavaScript</strong> often abbreviated as <strong>JS</strong>, is a <em>programming language</em> and core technology of the World Wide Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+			<strong>Cascading Style Sheets (CSS)</strong> is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a <em>cornerstone technology</em> of the World Wide Web, alongside HTML and JavaScript.
 		</p>
 		<p>
-			<strong>JavaScript</strong> is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+			CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility;[further explanation needed] provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting
 		</p>
 		<p>
-			The <strong>ECMAScript standard</strong> does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+			The CSS specifications are maintained by the <strong>W</strong>orld <strong>W</strong>ide <strong>W</strong>eb
+		    <strong>C</strong>onsortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.
 		</p>
+		<h3>Style Sheet</h3>
+		<p> 
+			A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a block.
+		</p>
+		<p>Selector</p>
 		<p>
-			JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.
+			In CSS, selectors declare which part of the markup a style applies to by matching tags and attributes in the mark up itself.
 		</p>
-		<p>
-			Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
-		</p>
-		<h3>Website Client-side Usage</h3>
+		<h3>Selector Types</h3>
 
-		<p>
-			JavaScript is the dominant client-side scripting language of the Web, with 99% of all websites using it for this purpose.[10] Scripts are embedded in or included from HTML documents and interact with the DOM.
-		</p>
-		<p>All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
+		<p>Selector types may apply to the following:</p>
 
-		<p>Examples of Scripted Behavior</p>
-		<ul>
-			<li>Loading new web page content without reloading the page, via Ajax or a WebSocket. For example, users of social media can send and receive messages without leaving the current page.</li>
-			<li>Web page animations, such as fading objects in and out, resizing, and moving them.</li>
-			<li>Playing browser games.</li>
-			<li>Controlling the playback of streaming media.</li>
-			<li>Generating pop-up ads or alert boxes</li>
-			<li>Validating input values of a web form before the data is sent to a web server.</li>
-			<li>Logging data about the user's behavior then sending it to a server. The website owner can use this data for analytics, ad tracking, and personalization.</li>
-			<li>Redirecting a user to another page.</li>
-			<li>Storing and retrieving data on the user's device, via the storage or IndexedDB standards.</li>
-		</ul>
-		<h3>Web Libraries and Frameworks</h3>
-		<p>
-			<strong>React</strong> (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
-		</p>
-		<p>
-		    <b>React</b> can be used to develop single-page, mobile, or server-rendered applications with frameworks like <b>Next.js</b>. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality. A key advantage of React is that it only rerenders those parts of the page that have changed, avoiding unnecessary rerendering of unchanged DOM elements.
-		</p>
-
-		<h3><strong>Angular</strong></h3>
-		<p>
-			<strong>Angula</strong> (also referred to as "Angular 2+") is a <strong>TypeScript-based</strong>, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
-		</p>
-
-		<h3><strong>jQuery</strong></h3>
-		<p>
-           In 2012, <strong>jQuery</strong> was by far the most popular client-side library, used by over 75% of websites. While still in widespread use, its popularity has been surpassed by newer libraries and frameworks.
-		</p>
-
-		<h3><strong>Vanilla JS</strong></h3>
-		<p>
-		    The framework-like moniker <strong>"Vanilla JS"</strong> is term that has been coined for websites not using any libraries or frameworks at all, instead relying entirely on standard JavaScript functionality</p>
-
-		<p>You can learn more at <a href="https://www.codecademy.com/article/growth-of-javascript" target="_blank">codecademy</a></p>
-
-		<h3>Why JavaSricpt is Essential</h3>
-		<p>Here's how:</p>
 		<ol>
-			<li>JavaScript can be used in both the front-end and back-end of web development.</li>
-			<li>JavaScript is standardized so it’s frequently updated with new versions.</li>
-			<li>JavaScript integrates easily with HTML and CSS.</li>
-			<li>JavaScript allows websites to have interactivity like scroll transitions and object movement. Modern browsers still compete to process JavaScript the fastest for the best user experiences. Chrome, the most used Internet browser in 2017, has been so successful because of its ability to process JavaScript quickly.</li>
-			<li>JavaScript offers a wide range of frameworks and libraries that help developers create complex applications with low overhead. Programmers can import libraries and frameworks in their code to augment their application’s functionality.</li>
+			<li>all elements of a specific type, e.g. the second-level headers h2</li>
+			<li>elements specified by attribute, in particular:</li>
+			<li>id: an identifier unique within the document, denoted in the selector language by a hash prefix e.g. #id</li>
+			<li>class: an identifier that can annotate multiple elements in a document, denoted by a dot prefix e.g. .classname (the phrase "CSS class", although sometimes used, is a misnomer, as element classes—specified with the HTML class attribute—is a markup feature that is distinct from browsers' CSS subsystem and the related W3C/WHATWG standards work on document styles; see RDF and microformats for the origins of the "class" system of the Web content model)</li>
+			<li>elements depending on how they are placed relative to others in the document tree.</li>
+			<li>Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters, hyphens, and underscores. A class may apply to any number of instances of any element. An ID may only be applied to a single element.</li>
 		</ol>
 
-		<h3>Conclusion</h3>
+		<h3>Pseudo-classes</h3>
+
 		<p>
-		    When diving into either programming or web development, JavaScript is an excellent language to learn. The capabilities of JavaScript allow you to use it in many different fields. Mastering what is known as “vanilla” or plain JavaScript will help you to tackle more complicated frameworks and libraries to make you a competitive developer.</p>
+			Pseudo-classes are used in CSS selectors to permit formatting based on information that is not contained in the document tree.
+			One example of a widely used pseudo-class is :hover, which identifies content only when the user "points to" the visible element, usually by holding the mouse cursor over it. It is appended to a selector as in a:hover or #elementid:hover.
+			A pseudo-class classifies document elements, such as :link or :visited, whereas a pseudo-element makes a selection that may consist of partial elements, such as ::first-line or ::first-letter.[6] Note the distinction between the double-colon notation used for pseudo-elements and the single-colon notation used for pseudo-classes.
+		</p>
 
-		    <h3>Subscribe to Our Newsletters</h3>
-		    <form>
-		    	<input type="email" name="email" placeholder="Your Email Address">
-		    	<input type="submit" value="Subscribe">
-		    </form>
-</article>
-<aside>
-	<h4>Related Posts</h4>
-	<ul>
-		<li>
-			<h4>What is CSS?</h4>
-			<p><strong>Cascading Style Sheets (CSS)</strong> is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
-			<p>By Raffy Gatal</p>
-		</li>
-		<li>
-			<h4>What is JavaScript?</h4>
-			<p><strong>JavaScript</strong> often abbreviated as <strong>JS</strong>, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</p>
-			<p>By Raffy Gatal</p>
-		</li>
-		<li>
-			<h4>What Web Framework?</h4>
-			<p>A web framework is <mark>a set of pre-written code, libraries, and tools designed to streamline the creation of web applications, APIs, and websites</mark>. It provides a standardized structure for handling common tasks like database access, session management, and URL routing, allowing developers to focus on unique business logic rather than repetitive plumbing.</p>
-			<p>By Raffy Gatal</p>
-		</li>
-	</ul>
-</aside>
-<footer>Copyright &copy; 2030 by Raffy Gatal All Rights Reserved.</footer>
+		<h3>Combinators</h3>
 
- </body>
+		<p>
+			Multiple simple selectors may be joined using combinators to specify elements by location, element type, id, class, or any combination thereof. The order of the selectors is important. For example, div .myClass {color: red;} applies to all elements of class myClass that are inside div elements, whereas .myClass div {color: red;} applies to all div elements that are inside elements of class myClass. This is not to be confused with concatenated identifiers such as div.myClass {color: red;} which applies to div elements of class myClass.
+		</p>
+
+		<h3>Declaration Block</h3>
+
+		<p>A declaration block consists of a pair of braces ({}) enclosing a semicolon-separated list of declarations</p>
+
+		<h3>Declaration</h3>
+
+		<p>
+			Each declaration itself consists of a property, a colon (:), and a value. Optional white-space may be around the declaration block, declarations, colons, and semi-colons for readability.
+		</p>
+
+		<h3>Properties</h3>
+
+		<p>
+			Properties are specified in the CSS standard. Each property has a set of possible values. Some properties can affect any type of element, and others apply only to particular groups of elements.
+		</p>
+
+		<h3>Values</h3>
+
+		<p>
+			Values may be keywords, such as "center" or "inherit", or numerical values, such as 200px (200 pixels), 50vw (50 percent of the viewport width) or 80% (80 percent of the parent element's width).
+			Non-zero numeric values representing linear measures must include a length unit, which is either an alphabetic code or abbreviation, as in 200px or 50vw; or a percentage sign, as in 80%. Some units – cm (centimetre); in (inch); mm (millimetre); pc (pica); and pt (point) – are absolute, which means that the rendered dimension does not depend upon the structure of the page; others – em (em); ex (ex) and px (pixel)[clarification needed] – are relative, which means that factors such as the font size of a parent element can affect the rendered measurement. These eight units were a feature of CSS 1[14] and retained in all subsequent revisions. The proposed CSS Values and Units Module Level 3 will, if adopted as a W3C Recommendation, provide seven further length units: ch; Q; rem; vh; vmax; vmin; and vw.
+		</p>
+
+		<p>You can learn more at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Selectors" target="_blank">MDN Web Docs</a> 
+		</p>
+
+		<h3>Learning CSS (Cascading Style Sheets)</h3>
+		<p>
+			Key Reasons for the Importance of CSS
+		</p>
+		<ul>
+			<li>Separation of Content and Design</li>
+			<li>Enhanced User Experience (UX)</li>
+			<li>Efficiency and Maintainability</li>
+			<li>Improved Page Performance</li>
+			<li>Accessibility</li>
+			<li>Branding and Identity</li>
+			<li>Better Search Engine Optimization (SEO)</li>
+		</ul>
+		<h3>Subscribe to Our Newsletter</h3>
+		<form>
+			<input type="email" name="email" placeholder="Your Email Address" required>
+			<input type="submit" name="Subscribe">
+		</form>
+	</article>
+	<aside>
+		<h4>Related Posts</h4>
+		<ul>
+			<li>
+				<h4>What is CSS?</h4>
+				<p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a <em>cornerstone technology</em> of the World Wide Web, alongside HTML and JavaScript.</p>
+				<p> by Raffy Gatal</p>
+			</li>
+			<li>
+				<h4>What is Javascript?</h4>
+				<p>JavaScript often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</p>
+				<p>by Raffy Gatal</p>
+			</li>
+			<li>
+				<h4>What is a Web Framework?</h4>
+				<p>A web framework is a set of pre-written code, libraries, and tools designed to streamline the creation of web applications, APIs, and websites. It provides a standardized structure for handling common tasks like database access, session management, and URL routing, allowing developers to focus on unique business logic rather than repetitive plumbing.</p>
+				<p>by Raffy Gatal</p>
+			</li>
+		</ul>
+	</aside>
+	<footer>Copy right &copy; 2030 by Raffy Gatal All Rights Reserved.</footer>
+
+</body>
+
 </html>
